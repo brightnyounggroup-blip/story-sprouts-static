@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercises - The Shy Dog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <a href="story-shy-dog.html" class="back-arrow">←</a>
+        <h1>The Shy Dog of Sadashivanagar</h1>
+    </header>
+
+    <main class="exercise-content">
+        <div class="question-block">
+            <p class="question-title">1. Who are the elderly neighbors who feed Buddy?</p>
+            <div class="option mcq-option" data-group="q1">Uncle Ravi and Ajji</div>
+            <div class="option mcq-option" data-group="q1">Kamala Ajji and Raman Ajja</div>
+            <div class="option mcq-option" data-group="q1">Mrs. Sharma and Dr. Prasad</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-title">2. Put these events in the correct order:</p>
+            <div class="drag-container">
+                <div class="option drag-option" draggable="true"><span class="drag-icon">☰</span> Ananya helps feed Buddy with Ajji and Ajja</div>
+                <div class="option drag-option" draggable="true"><span class="drag-icon">☰</span> The community builds a shelter for Buddy</div>
+                <div class="option drag-option" draggable="true"><span class="drag-icon">☰</span> Ananya is afraid of the dog by the gate</div>
+                <div class="option drag-option" draggable="true"><span class="drag-icon">☰</span> Ananya talks to Ajji about the dog</div>
+                <div class="option drag-option" draggable="true"><span class="drag-icon">☰</span> Ajji and Ajja start feeding the dog daily</div>
+            </div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-title">3. Match the words to their meanings:</p>
+            <div class="matching-container" id="q3-matching">
+                <div class="matching-column">
+                    <div class="option match-option" data-match="1">Stray</div>
+                    <div class="option match-option" data-match="2">Complex</div>
+                    <div class="option match-option" data-match="3">Shelter</div>
+                    <div class="option match-option" data-match="4">Nervous</div>
+                    <div class="option match-option" data-match="5">Community</div>
+                </div>
+                <div class="matching-column">
+                    <div class="option match-option" data-match="3">A small house or covering for protection</div>
+                    <div class="option match-option" data-match="5">All the people living in the same area</div>
+                    <div class="option match-option" data-match="1">An animal without a home or owner</div>
+                    <div class="option match-option" data-match="4">Feeling worried or afraid</div>
+                    <div class="option match-option" data-match="2">A group of buildings or apartments together</div>
+                </div>
+            </div>
+            <canvas id="q3-canvas" class="matching-canvas"></canvas>
+        </div>
+
+        <div class="question-block">
+            <p class="question-title">4. How did Ananya's feelings about Buddy change and why?</p>
+            <textarea class="short-answer-input" placeholder="Write 2-3 sentences explaining the change..."></textarea>
+        </div>
+    </main>
+    
+    <div class="sticky-footer">
+        <button class="finish-quiz-btn" id="finish-quiz-btn">Finish Quiz!</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
