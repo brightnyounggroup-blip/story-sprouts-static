@@ -35,10 +35,15 @@ header h1 { font-size: 20px; margin: 0; flex-grow: 1; text-align: center; }
     background: linear-gradient(to top, white, rgba(255, 255, 255, 0));
     padding: 20px 20px 30px 20px;
     z-index: 10;
+    display: flex;                
+    justify-content: center;      
 }
+
 .challenge-btn, .finish-quiz-btn {
     display: block;
+    max-width: 400px; 
     width: 100%;
+    margin: 0 auto;  
     padding: 15px;
     background-color: #007bff;
     color: #fff;
